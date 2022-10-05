@@ -1,0 +1,19 @@
+{
+    "description" : "SomeTable",
+    "type" : "object",
+    "properties" : {
+        "id" : {
+            "type" : "integer",
+            "required" : true,
+            "pattern" : "/[1-9]/"
+        },
+        "descripcion" : {
+            "type" : "string",
+            "required" : true
+        },
+        "activo" : {
+            "type" : "boolean",
+            "required" : false
+        }
+    }
+}
